@@ -1,0 +1,15 @@
+2019-11-25 14:10:54 DEBUG Log:24 - This is debug : mkyong
+2019-11-25 14:10:54 INFO  Log:28 - This is info : mkyong
+2019-11-25 14:10:54 WARN  Log:31 - This is warn : mkyong
+2019-11-25 14:10:54 ERROR Log:32 - This is error : mkyong
+2019-11-25 14:10:54 FATAL Log:33 - This is fatal : mkyong
+2019-11-25 14:11:35 DEBUG Log:24 - This is debug : mkyong
+2019-11-25 14:11:35 INFO  Log:28 - This is info : mkyong
+2019-11-25 14:11:35 WARN  Log:31 - This is warn : mkyong
+2019-11-25 14:11:35 ERROR Log:32 - This is error : mkyong
+2019-11-25 14:11:35 FATAL Log:33 - This is fatal : mkyong
+2019-11-25 14:11:37 DEBUG Log:24 - This is debug : mkyong
+2019-11-25 14:11:37 INFO  Log:28 - This is info : mkyong
+2019-11-25 14:11:37 WARN  Log:31 - This is warn : mkyong
+2019-11-25 14:11:37 ERROR Log:32 - This is error : mkyong
+2019-11-25 14:11:37 FATAL Log:33 - This is fatal : mkyong
