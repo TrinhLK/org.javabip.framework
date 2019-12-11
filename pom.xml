@@ -21,7 +21,7 @@
     <module>org.javabip.api</module>
     <module>org.javabip.glue</module>
     <module>org.javabip.executor</module>
-    <module>org.javabip.spec.examples</module>
+    <module>org.javabip.framework.core</module>
     <module>org.javabip.engine.api</module>
     <module>org.javabip.engine.bdd</module>
     <module>org.javabip.engine.coordinator</module>
