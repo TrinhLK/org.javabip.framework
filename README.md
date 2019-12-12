@@ -1,5 +1,5 @@
 # JavaBIP Framework
-######org.javabip.framework
+###### org.javabip.framework
 
 This project re-organized the JavaBIP projects of [Simon Bliudze](https://github.com/sbliudze "Named link title").
 
@@ -28,4 +28,5 @@ This project also provides some runnable examples in the module org.javabip.fram
 	* SpiralsDemo: for the Camel Route
 	* TestPubSub: for publisher-subscriber system
 	* TrackPeerTest: for the boardcasting between Tracker and Peers
+
 For those who are newbies, you should follow Track-Peer, SpiralsDemo and PetriNet first.
