@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<glue>
+    <accepts>
+        <accept>
+            <effect id="register" specType="org.bip.spec.trackpeer.Peer"/>
+            <causes>
+                <port id="log" specType="org.bip.spec.trackpeer.Tracker"/>
+            </causes>
+        </accept>
+        <accept>
+            <effect id="speak" specType="org.bip.spec.trackpeer.Peer"/>
+            <causes>
+                <port id="broadcast" specType="org.bip.spec.trackpeer.Tracker"/>
+                <port id="listen" specType="org.bip.spec.trackpeer.Peer"/>
+            </causes>
+        </accept>
+        <accept>
+            <effect id="listen" specType="org.bip.spec.trackpeer.Peer"/>
+            <causes>
+                <port id="broadcast" specType="org.bip.spec.trackpeer.Tracker"/>
+                <port id="speak" specType="org.bip.spec.trackpeer.Peer"/>
+                <port id="listen" specType="org.bip.spec.trackpeer.Peer"/>
+            </causes>
+        </accept>
+        <accept>
+            <effect id="unregister" specType="org.bip.spec.trackpeer.Peer"/>
+            <causes>
+                <port id="log" specType="org.bip.spec.trackpeer.Tracker"/>
+            </causes>
+        </accept>
+        <accept>
+            <effect id="log" specType="org.bip.spec.trackpeer.Tracker"/>
+            <causes>
+                <port id="register" specType="org.bip.spec.trackpeer.Peer"/>
+                <port id="unregister" specType="org.bip.spec.trackpeer.Peer"/>
+            </causes>
+        </accept>
+        <accept>
+            <effect id="broadcast" specType="org.bip.spec.trackpeer.Tracker"/>
+            <causes>
+                <port id="speak" specType="org.bip.spec.trackpeer.Peer"/>
+                <port id="listen" specType="org.bip.spec.trackpeer.Peer"/>
+                <port id="broadcast" specType="org.bip.spec.trackpeer.Tracker"/>
+            </causes>
+        </accept>
+    </accepts>
+    <requires>
+        <require>
+            <effect id="register" specType="org.bip.spec.trackpeer.Peer"/>
+            <causes>
+                <option>
+                    <causes>
+                        <port id="log" specType="org.bip.spec.trackpeer.Tracker"/>
+                    </causes>
+                </option>
+            </causes>
+        </require>
+        <require>
+            <effect id="speak" specType="org.bip.spec.trackpeer.Peer"/>
+            <causes>
+                <option>
+                    <causes>
+                        <port id="broadcast" specType="org.bip.spec.trackpeer.Tracker"/>
+                    </causes>
+                </option>
+            </causes>
+        </require>
+        <require>
+            <effect id="listen" specType="org.bip.spec.trackpeer.Peer"/>
+            <causes>
+                <option>
+                    <causes>
+                        <port id="broadcast" specType="org.bip.spec.trackpeer.Tracker"/>
+                    </causes>
+                </option>
+            </causes>
+        </require>
+        <require>
+            <effect id="unregister" specType="org.bip.spec.trackpeer.Peer"/>
+            <causes>
+                <option>
+                    <causes>
+                        <port id="log" specType="org.bip.spec.trackpeer.Tracker"/>
+                    </causes>
+                </option>
+            </causes>
+        </require>
+        <require>
+            <effect id="broadcast" specType="org.bip.spec.trackpeer.Tracker"/>
+            <causes>
+                <option>
+                    <causes/>
+                </option>
+            </causes>
+        </require>
+        <require>
+            <effect id="log" specType="org.bip.spec.trackpeer.Tracker"/>
+            <causes>
+                <option>
+                    <causes>
+                        <port id="register" specType="org.bip.spec.trackpeer.Peer"/>
+                    </causes>
+                </option>
+                <option>
+                    <causes>
+                        <port id="unregister" specType="org.bip.spec.trackpeer.Peer"/>
+                    </causes>
+                </option>
+            </causes>
+        </require>
+    </requires>
+    <data>
+        <wire>
+            <from id="trackerId" specType="org.bip.spec.trackpeer.Tracker"/>
+            <to id="trackerId" specType="org.bip.spec.trackpeer.Peer"/>
+        </wire>
+    </data>
+</glue>
