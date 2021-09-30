@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/org.javabip.api/org.javabip.api.iml" filepath="$PROJECT_DIR$/org.javabip.api/org.javabip.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.javabip.engine.api/org.javabip.engine.api.iml" filepath="$PROJECT_DIR$/org.javabip.engine.api/org.javabip.engine.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.javabip.engine.bdd/org.javabip.engine.bdd.iml" filepath="$PROJECT_DIR$/org.javabip.engine.bdd/org.javabip.engine.bdd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.javabip.engine.coordinator/org.javabip.engine.coordinator.iml" filepath="$PROJECT_DIR$/org.javabip.engine.coordinator/org.javabip.engine.coordinator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.javabip.engine.core/org.javabip.engine.core.iml" filepath="$PROJECT_DIR$/org.javabip.engine.core/org.javabip.engine.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.javabip.engine.factory/org.javabip.engine.factory.iml" filepath="$PROJECT_DIR$/org.javabip.engine.factory/org.javabip.engine.factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.javabip.executor/org.javabip.executor.iml" filepath="$PROJECT_DIR$/org.javabip.executor/org.javabip.executor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.javabip.framework.iml" filepath="$PROJECT_DIR$/org.javabip.framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.javabip.framework.core/org.javabip.framework.core.iml" filepath="$PROJECT_DIR$/org.javabip.framework.core/org.javabip.framework.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.javabip.glue/org.javabip.glue.iml" filepath="$PROJECT_DIR$/org.javabip.glue/org.javabip.glue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.javabip.parent/org.javabip.parent.iml" filepath="$PROJECT_DIR$/org.javabip.parent/org.javabip.parent.iml" />
+    </modules>
+  </component>
+</project>

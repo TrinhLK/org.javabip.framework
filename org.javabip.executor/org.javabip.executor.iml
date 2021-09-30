@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="org.javabip.executor-0.1.0-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="org.javabip.executor" bundleVersion="0.1.0.SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="It contains all the classes for the BIP executor functionality." />
+          <property key="Embed-Transitive" value="true" />
+          <property key="Bundle-Name" value="BIP :: Core :: Executor" />
+          <property key="Export-Package" value="org.javabip.executor" />
+          <property key="Import-Package" value="org.javabip.annotations, org.javabip.api, org.javabip.exceptions,org.javabip.glue, org.slf4j, *" />
+          <property key="Private-Package" value="org.javabip.executor.guardparser" />
+          <property key="Spring-Context" value="*;publish-context:=false;create-asynchronously:=true" />
+          <property key="Embed-Dependency" value="antlr4, antlr4-runtime, org.abego.treelayout.core, antlr-runtime, antlr, ST4, stringtemplate" />
+          <property key="Bundle-ClassPath" value=".,antlr4-4.0.jar,antlr4-runtime-4.0.jar,org.abego.treelayout.core-1.0.1.jar,antlr-runtime-3.5.jar,antlr-2.7.7.jar,ST4-4.0.7.jar,stringtemplate-3.2.1.jar" />
+          <property key="Include-Resource" value="antlr4-4.0.jar=$MAVEN_REPOSITORY$/org/antlr/antlr4/4.0/antlr4-4.0.jar,antlr4-runtime-4.0.jar=$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.0/antlr4-runtime-4.0.jar,org.abego.treelayout.core-1.0.1.jar=$MAVEN_REPOSITORY$/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar,antlr-runtime-3.5.jar=$MAVEN_REPOSITORY$/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5.jar,antlr-2.7.7.jar=$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar,ST4-4.0.7.jar=$MAVEN_REPOSITORY$/org/antlr/ST4/4.0.7/ST4-4.0.7.jar,stringtemplate-3.2.1.jar=$MAVEN_REPOSITORY$/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar" />
+          <property key="Embedded-Artifacts" value="antlr4-4.0.jar;g=&quot;org.antlr&quot;;a=&quot;antlr4&quot;;v=&quot;4.0&quot;,antlr4-runtime-4.0.jar;g=&quot;org.antlr&quot;;a=&quot;antlr4-runtime&quot;;v=&quot;4.0&quot;,org.abego.treelayout.core-1.0.1.jar;g=&quot;org.abego.treelayout&quot;;a=&quot;org.abego.treelayout.core&quot;;v=&quot;1.0.1&quot;,antlr-runtime-3.5.jar;g=&quot;org.antlr&quot;;a=&quot;antlr-runtime&quot;;v=&quot;3.5&quot;,antlr-2.7.7.jar;g=&quot;antlr&quot;;a=&quot;antlr&quot;;v=&quot;2.7.7&quot;,ST4-4.0.7.jar;g=&quot;org.antlr&quot;;a=&quot;ST4&quot;;v=&quot;4.0.7&quot;,stringtemplate-3.2.1.jar;g=&quot;org.antlr&quot;;a=&quot;stringtemplate&quot;;v=&quot;3.2.1&quot;" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="org.javabip.api" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4:4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.abego.treelayout:org.abego.treelayout.core:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr-runtime:3.5" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:stringtemplate:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:ST4:4.0.7" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.5.11" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.5.11" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.16" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+  </component>
+</module>

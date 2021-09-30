@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="org.javabip.executor" />
+        <module name="org.javabip.engine.bdd" />
+        <module name="org.javabip.engine.factory" />
+        <module name="org.javabip.engine.core" />
+        <module name="org.javabip.engine.api" />
+        <module name="org.javabip.glue" />
+        <module name="org.javabip.framework.core" />
+        <module name="org.javabip.engine.coordinator" />
+        <module name="org.javabip.api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="org.javabip.api" target="1.6" />
+      <module name="org.javabip.engine.api" target="1.6" />
+      <module name="org.javabip.engine.bdd" target="1.6" />
+      <module name="org.javabip.engine.coordinator" target="1.6" />
+      <module name="org.javabip.engine.core" target="1.6" />
+      <module name="org.javabip.engine.factory" target="1.6" />
+      <module name="org.javabip.executor" target="1.6" />
+      <module name="org.javabip.framework" target="1.5" />
+      <module name="org.javabip.framework.core" target="1.6" />
+      <module name="org.javabip.glue" target="1.6" />
+      <module name="org.javabip.parent" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

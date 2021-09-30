@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="Osmorc" url="file://$PROJECT_DIR$/org.javabip.api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/org.javabip.engine.api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/org.javabip.engine.coordinator" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/org.javabip.engine.factory" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/org.javabip.executor" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/org.javabip.framework.core" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/org.javabip.glue" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>
